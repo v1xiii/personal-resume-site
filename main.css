@@ -9,15 +9,6 @@ body {
 	background-color: black;
 }
 
-nav {
-	background-color: #1A1A1A;
-    color: white;
-	height: 7vh;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
 h1 {
 	font-size: 2em;
 }
@@ -27,18 +18,7 @@ li {
 }
 
 #grid-container-firstpage {
-	display: grid;    
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 31vh 31vh 31vh;
-    grid-gap: 0em;
-    grid-template-areas:
-        ". . . . . . . . . . . ."
-        ". . . c c c c c c . . ."
-        ". . . . . . . . . . . .";
-}
-
-#grid-container-skills {
-	display: grid;    
+    display: grid;    
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 7vh 30.75vh 30vh 30.75vh;
     grid-gap: 0em;
@@ -87,8 +67,9 @@ li {
     color: white;
     position: absolute;
     left: -50%;
-    top: 0;
-    display: block;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
     width: 200px;
     height: 180px;
     transform: translate(-50%,-50%);
@@ -98,6 +79,10 @@ li {
 }
 
 .section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-area: c;
     background-color: white;
     color: black;
@@ -115,10 +100,6 @@ footer {
 	height: 5vh;
 }
 
-.triangle_down {
-
-}
-
 .menu {
     grid-area: m;
     background-color: white;
@@ -133,10 +114,6 @@ footer {
     background: linear-gradient(#707070, #1A1A1A);
 }
 
-#skills {
-    background: linear-gradient(#707070, #1A1A1A);
-}
-
 #about {
     background: linear-gradient(#707070, #1A1A1A);
 }
@@ -144,20 +121,3 @@ footer {
 #works {
     background: linear-gradient(#707070, #1A1A1A);
 }
-
-/*
-#skills .section_heading {
-	background-color: rgb(90, 90, 90);
-	color: white;
-}
-
-#about .section_heading {
-	background-color: rgb(120, 60, 140);
-	color: white;
-}
-
-#works .section_heading {
-	background-color: rgb(70, 140, 60);
-	color: white;
-}
-*/
