@@ -10,7 +10,8 @@ body {
 }
 
 nav {
-	background-color: rgb(137, 206, 130);
+	background-color: #1A1A1A;
+    color: white;
 	height: 7vh;
 	display: flex;
 	justify-content: space-around;
@@ -72,9 +73,28 @@ li {
         ". . . . . . . . . . . .";
 }
 
-.section_heading {
-    background-color: #707070;
+.section_heading {   
     grid-area: h;
+    position: relative;
+    border-bottom:200px solid transparent ;
+    border-left:50vw solid transparent;
+    border-top: 7vh solid #1A1A1A;
+    border-right:50vw solid transparent;
+    display: inline-block;  
+}
+
+.triangle_content {
+    color: white;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    display: block;
+    width: 200px;
+    height: 180px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 0;
 }
 
 .section_content {
@@ -90,9 +110,13 @@ li {
 footer {
 	display: flex;
 	align-items: center;
-	background-color: black;
-	color:white;
+	background-color: #707070;
+	color: white;
 	height: 5vh;
+}
+
+.triangle_down {
+
 }
 
 .menu {
@@ -106,19 +130,19 @@ footer {
 }
 
 #firstpage {
-	background-color: #1A1A1A;
+    background: linear-gradient(#707070, #1A1A1A);
 }
 
 #skills {
-	background-color: #1A1A1A;
+    background: linear-gradient(#707070, #1A1A1A);
 }
 
 #about {
-	background-color: #1A1A1A;
+    background: linear-gradient(#707070, #1A1A1A);
 }
 
 #works {
-	background-color: #1A1A1A;
+    background: linear-gradient(#707070, #1A1A1A);
 }
 
 /*
