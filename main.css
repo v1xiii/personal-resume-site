@@ -50,7 +50,7 @@ li {
     padding-bottom: 10vh;
     display: grid;    
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 30vh 30vh 30vh;
+    grid-template-rows: 20vh 20vh 20vh;
     grid-row-gap: 5vh;
     grid-column-gap: 5vw;
     grid-template-areas:
