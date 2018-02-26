@@ -93,6 +93,14 @@ li {
     background-color: white;
 }
 
+.topcenter {
+    object-position: top center;
+}
+
+.topleft {
+    object-position: top left;
+}
+
 .section_heading {   
     grid-area: h;
     position: relative;
