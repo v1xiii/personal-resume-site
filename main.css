@@ -50,13 +50,19 @@ li {
     padding-bottom: 10vh;
     display: grid;    
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-rows: repeat(3, 20vh);
     grid-row-gap: 5vh;
     grid-column-gap: 5vw;
     grid-template-areas:
         ". u u u u u v v v v v ."
         ". w w w w w x x x x x ."
         ". y y y y y z z z z z .";
+}
+
+.cover {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 .portfolio-1 {

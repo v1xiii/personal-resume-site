@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #797B87;
+}
+
+#page {
+	flex-direction: column;
+	height: 90vh;
+}
+
+div {
+	border: solid;
+}
+
+h1 {
+	height: 10vh;
+	background-color: #4C47AE;
+	color: white;
+}
+
+#socket {
+	background-color: white;
+	height: 30rem;
+	width: 25rem;
+}
+
+#switchplate {
+	height: 5rem;
+	width: 25rem;
+	background-color: #4C47AE;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 15rem;
+	height: auto;
+}
+
+button {
+	width: 8rem;
+	padding: 1rem;
+	margin: 1rem;
+}

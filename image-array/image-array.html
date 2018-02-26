@@ -1,0 +1,23 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Image Array</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./image-array.css">
+</head>
+<body>
+<h1 class="center">Decepticon Image Array</h1>
+<div id="page" class="center">
+	<div id="socket" class="center">
+		<img src="megatron.png" id="target">
+	</div>
+	<div id="switchplate" class="center">
+		<button onclick="previous()" id="previous">Previous</button>
+		<button onclick="next()" id="next">Next</button>
+		<button onclick="random()" id="random">Random</button>
+	</div>
+</div>
+	<script src="image-array.js"></script> <!-- this was totally breaking my javascript when it was in the head of the document, lesson learned! -->
+</body>
+</html>
