@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	background-color: grey;
+}
+
+nav a {
+	justify-content: center;
+	padding-left: 1rem;
+}
+
+#home {
+	display:flex;
+	flex-direction: column;
+	background: url(Business-wallpaper-HD-Free.png) no-repeat center fixed;
+	background-size: cover;
+	height: 91vh;
+	position: relative;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	background-color: #60707D;
+	color: #FFFFFF;
+	line-height: 3rem;
+	height: 3.6rem;
+	justify-content: space-between;
+	align-content: center;
+}
+
+h1 {
+	display: flex;
+	padding-top: .2rem;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 2.5vw;
+	margin-right: auto;
+	margin-left: 2rem;
+}
+
+nav {
+	padding-top: .2rem;
+	display: flex;
+	font-size: 1.5vw;
+}
+
+span {
+	margin-right: 1rem;
+	min-width: 8vw;
+	text-align: center;
+}
+
+#bblogo {
+	max-height: 3rem;
+	width: auto;
+	margin: .3rem auto .3rem .3rem;
+}
+
+#asulogo {
+	width: 15rem;
+	height: auto;
+	margin-top: 3rem;
+}
+
+#bbtitle {
+	width: 15rem;
+	height: auto;
+	margin-top: .5rem;
+	margin-bottom: 1rem;
+}
+
+#paragraph_background {
+	margin-top: .5rem;
+	height: 5rem;
+	width: 26rem;
+	background-color: white;
+	opacity: 0.6;
+	filter: blur(2px);
+}
+
+#p {
+	display: flex;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 30rem;
+	font-size: 1.5vh;
+	height: 11vh;
+	margin-top: -4.7rem;
+	justify-content: center;
+	overflow: hidden;
+	padding-left: 2rem;
+}
+
+p {
+	z-index: 1;
+	width: 50ch;
+	font-size: 1rem;
+}
+
+#buttons {
+	display:flex;
+	justify-content: center;
+	height: 8vh;
+	width: 30rem;
+	font-size: 1.5rem; 
+	color: white;
+	margin-top: 2rem;
+}
+
+#get_in_touch {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 12rem; 
+	height: 3rem;
+	background-color:#27A348;
+	margin-right: 2vw;
+	padding-left: 1vw;
+}
+
+#donate_now {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 12rem;
+	height: 3rem;
+	background-color:#00659E;
+	margin-left: 2vw;
+	padding-left: 1vw;
+}
+
+#buttons a:hover {
+	background-color: grey;
+	z-index: 1;
+}

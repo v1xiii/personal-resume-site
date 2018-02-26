@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pencil Program</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+</head>
+<body>
+<script>
+
+var woodenEnd = "no";
+var makeMarking = "no";
+var darknessLevel = "0";
+var anotherMarking = "no";
+var eraseAgain = "no";
+var deleteMarking = "no";
+var ranOnce = "0";
+var unSharpenable = "no";
+sharpQuestion();
+
+function sharpQuestion() {
+	woodenEnd = prompt("Is the wooden end of the pencil a conical point?");
+		if (woodenEnd == "no" || woodenEnd == "No" || woodenEnd == "NO") {
+			sharpener();
+		}
+		else if (woodenEnd == "yes" || woodenEnd == "Yes" || woodenEnd == "YES") {
+			markingQuestion();
+		}
+		else {
+			alert("Invalid input, please try again.");
+			sharpQuestion();
+		}
+}
+
+function markingQuestion() {
+	makeMarking = prompt("Would you like to make a marking?");
+		if (makeMarking == "yes" || makeMarking == "Yes" || makeMarking == "YES") {
+			marking();
+		}
+		else if (makeMarking == "no" || makeMarking == "No" || makeMarking == "NO") {
+			deleteQuestion();
+		}
+		else {
+			alert("Invalid input, please try again.");
+			markingQuestion();
+		}
+}
+
+function deleteQuestion() {
+	deleteMarking = prompt("Would you like to delete any markings?");
+		if (deleteMarking == "yes" || deleteMarking == "Yes" || deleteMarking == "YES") {
+			eraser();
+		}
+		else if (deleteMarking == "no" || deleteMarking == "No" || deleteMarking == "YES") {
+			darknessQuestion();
+		}
+		else {
+			alert("Invalid input, please try again.");
+			deleteQuestion();
+		}
+}
+
+function darknessQuestion() {
+	ranOnce = "1";
+	darknessLevel = prompt("Are all markings of the proper darkness?\n\n1= Yes\n2= Too Light\n3= Too Dark");
+		switch(darknessLevel) {
+			case "1":
+				alert("Pencil-ing complete!");
+				break;
+			case "2":
+				if (unSharpenable == "no" || unSharpenable == "No" || unSharpenable == "NO") {
+					marking();
+				}
+				else if (unSharpenable == "yes" || unSharpenable == "Yes" || unSharpenable == "YES") {
+					alert("You will not be able to use the pencil to make a marking without a sharpener or knife.");
+					darknessQuestion();
+				}
+                break;
+			case "3":
+				eraser();
+                break;
+            default:
+            	alert("Invalid input, please try again.");
+            	darknessQuestion();
+		}
+}
+
+function sharpener() {
+	var validMode = 0;
+	var haveSharpener = prompt("Do you have a a sharpener?");
+	if (haveSharpener == "yes" || haveSharpener == "Yes" || haveSharpener == "YES") {
+		alert("1. Input conical point into sharpener.\n\n2. Operate sharpener according to manufacturer instructions");
+		woodenEnd = "yes";
+		markingQuestion();
+	}
+	else if (haveSharpener == "no" || haveSharpener == "No" || haveSharpener == "NO") {
+		while (validMode === 0) {
+			var haveKnife = prompt("Do you have a knife?");
+			if (haveKnife == "yes" || haveKnife == "Yes" || haveKnife == "YES") {
+				alert("Use your knife to carefully carve the wooden end of the pencil into a conical point");
+				woodenEnd = "yes";
+				validMode = 1;
+				markingQuestion();
+			}
+			else if (haveKnife == "no" || haveKnife == "No" || haveKnife == "NO") {
+				unSharpenable = "yes";
+				alert("You will not be able to use the pencil to make a marking without a sharpener or knife.");
+				validMode = 1;
+				deleteQuestion();
+			}
+			else {
+				alert("Invalid input, please try again.");
+				validMode = 0;
+			}
+		}
+	}
+	else {
+		alert("Invalid input, please try again.");
+		sharpener();
+	}
+}
+
+function marking() {
+	var validMode = 0;
+	alert("1. Hold pencil just before the conical point with graphite tip pointing down.\n\n2. Place graphite tip on surface you wish to mark.\n\n3. Drag graphite tip along the surface as desired to produce a marking.\n\n4. Lift graphite tip off of the marked surface");
+
+	while (validMode === 0) {
+		anotherMarking = prompt("Would you like to make another marking?");
+			if (anotherMarking == "yes" || anotherMarking == "Yes" || anotherMarking == "YES") {
+				validMode = 1;
+				marking();
+			}
+			else if (ranOnce == "1" && anotherMarking == "no" || anotherMarking == "No" || anotherMarking == "NO") {
+				darknessLevel = "1";
+				validMode = 1;
+				darknessQuestion();
+			}
+			else if (anotherMarking == "no" || anotherMarking == "No" || anotherMarking == "NO") {
+				darknessLevel = "1";
+				validMode = 1;
+				deleteQuestion();
+			}
+			else {
+				alert("Invalid input, please try again.");
+				validMode = 0;
+			}
+	}
+}
+
+function eraser() {
+	var validMode = 0;
+	alert("1. Hold pencil at metal band with eraser pointing downward.\n\n2. Place eraser on the marking to be deleted or lightened.\n\n3. Apply moderate pressure and move eraser across the marking using short, rapid strokes until marking is removed or sufficiently lightened.");
+
+	while (validMode === 0) {
+		eraseAgain = prompt("Would you like to erase or lighten another marking?");
+			if (eraseAgain == "yes" || eraseAgain == "Yes" || eraseAgain == "YES") {
+				validMode = 1;
+				eraser();
+			}
+			else if (eraseAgain == "no" || eraseAgain == "No" || eraseAgain == "NO") {
+				darknessLevel = "1";
+				validMode = 1;
+				darknessQuestion();
+			}
+			else {
+				alert("Invalid input, please try again.");
+				validMode = 0;
+			}
+	}
+}
+
+</script>
+</body>
+</html>

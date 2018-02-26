@@ -1,0 +1,4 @@
+My game, tentatively named "Corrupted Land" (based on a concept I had for a more wide ranging game that I might flesh out in the future) is essentially going to be a turn-based boss battle. You will start out immediately under attack from the boss and have a few different options in the form of buttons. One of course will be attack, dealing a small amount of damage to the boss if you don't have anything better to do on that turn. Another will be some sort of inspect option that will become available during certain circumstances. The third button will be a "use item" action, and the fourth will be "defend" which will need to be done if the boss prepares to use a certain attack. 
+
+I'm thinking that each turn (player and boss) should have a dice roll of some kind to decide if certain events will occur. I intend for there to be random number rolls for many aspects of the game (events, damage, effects of certain items, etc.) 
+
