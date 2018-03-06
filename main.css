@@ -17,7 +17,12 @@ li {
 	display: inline;
 }
 
+#pusher {
+    height: 100vh;
+}
+
 #grid-container-firstpage {
+    position: fixed;
     background-image: url(Typical-orb-web-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +30,7 @@ li {
     background-position: center;
     display: grid;    
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 7vh 30.75vh 30vh 30.75vh;
+    grid-template-rows: 7vh 31.5vh 30vh 31.5vh;
     grid-template-areas:
         "h h h h h h h h h h h h"
         ". . . . . . . . . . . ."
@@ -113,9 +118,9 @@ li {
 
 .triangle_content {
     color: white;
-    position: absolute;
+    position: relative;
     left: -50%;
-    top: .5rem;
+    top: .5vh; /* distance of title from top*/
     display: flex;
     justify-content: center;
     width: 200px;
@@ -156,11 +161,6 @@ footer {
     grid-area: a;
 }
 
-#myself {
-    background-image: url(01345dd.jpg);
-    background-color: white;
-}
-
 #skills {
     background-color: white;
 }
@@ -175,4 +175,15 @@ footer {
 
 #works {
     background-color: #1A1A1A;
+}
+
+.fade2 {
+  opacity: 0;
+  transform: translate(0, 20px); 
+  transition: all 1s;
+}
+
+.fade2.visible { 
+  opacity: 1;
+  transform: translate(0, 0);
 }

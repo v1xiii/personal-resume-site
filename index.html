@@ -5,18 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.js"></script>
 </head>
 
 <body>
 
 <article>
 
-<section id="firstpage">
-<div id="grid-container-firstpage">
+<section id="firstpage" class="fade">
+<div id="grid-container-firstpage" class="fixed">
 	<div class="section_heading">
 		<h2 class="triangle_content">Scholl Design</h2>
 	</div>
-	<div class="section_content" id="firstpage-content">
+	<div class="section_content fixed" id="firstpage-content">
 		<h1>What Can I Do For You?</h1>
 		<h4>The very best in design and software development.</h4>
 		<span><a href="https://www.linkedin.com/in/lee-scholl-70a10736/">RESUME</a></span>
@@ -24,9 +26,11 @@
 </div>
 </section> <!-- Why does swapping div and section fix the black line on the right side?? -->
 
+<div id="pusher"></div>
+
 <section id="about">
 <div id="grid-container-about">
-	<div class="picture" id="myself">		
+	<div class="picture" id="myself"><img src="01345dd.jpg" class="cover">		
 	</div>
 	<div class="section_content">
 		<p>
@@ -50,7 +54,7 @@
 </div>
 </section>
 
-<section id="works">
+<section id="works" class="fade2">
 <div id="grid-container-works">
 	<div class="portfolio-1 portfolio-item">
 		<a href="/corrupted-land/corrupted_land.html" target="_blank"><img src="./corrupted-land/corruptedland.png" class="cover topcenter"></a>
@@ -62,7 +66,7 @@
 		<a href="/image-array/image-array.html" target="_blank"><img src="./image-array/imagearray.png" class="cover topcenter"></a>
 	</div>
 	<div class="portfolio-4 portfolio-item">
-		<a href="/pencil-program/Pencil Program 1.0.html" target="_blank"><img src="./pencil-program/pencilprogram.png" class="cover topleft"></a>
+		<a href="/pencil-program/Pencil Program 1.0.html" target="_blank"><img src="./pencil-program/pencil-program.png" class="cover topleft"></a>
 	</div>
 	<div class="portfolio-5 portfolio-item">
 		<a href="/pincers/pincers.html" target="_blank"><img src="./pincers/pincerscrop.png" class="cover"></a>
