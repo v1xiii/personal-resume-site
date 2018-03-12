@@ -193,3 +193,9 @@ footer {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+/*TODO
+-redo grid system, templates are too rigid
+-need boxes to expand and contract responsively
+-need page sections to do the same
+-responsive font size?
