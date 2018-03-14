@@ -4,117 +4,28 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 3vh;
+}
+
 body {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
     color: #93a4aa;
     line-height: 1.6;
-	background-color: black;
+    background-color: black;
 }
 
-h1 {
-	font-size: 2em;
-}
-
-li {
-	display: inline;
-}
-
-#pusher {
-    height: 100vh;
-}
-
-#grid-container-firstpage {
+#firstpage {
     position: fixed;
     z-index: -1;
-    background-image: url(Typical-orb-web-photo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: grid;    
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 7vh 31.5vh 30vh 31.5vh;
-    grid-template-areas:
-        "h h h h h h h h h h h h"
-        ". . . . . . . . . . . ."
-        ". . . c c c c c c . . ."
-        ". . . . . . . . . . . .";
-}
-
-#grid-container-about {
-    display: grid;    
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 10vh 50vh 10vh 20vh 10vh;
-    grid-template-areas:
-        ". . . . . . . . . . . ."
-        ". p p p . c c c c c c ."
-        ". . . . . c c c c c c ."
-        ". a a a . c c c c c c ."
-        ". . . . . . . . . . . .";
-}
-
-#grid-container-works {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    display: grid;    
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 20vh);
-    grid-row-gap: 5vh;
-    grid-column-gap: 5vw;
-    grid-template-areas:
-        ". u u u u u v v v v v ."
-        ". w w w w w x x x x x ."
-        ". y y y y y z z z z z .";
-}
-
-.cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.portfolio-1 {
-    grid-area: u;
-}
-
-.portfolio-2 {
-    grid-area: v;
-}
-
-.portfolio-3 {
-    grid-area: w;
-}
-
-.portfolio-4 {
-    grid-area: x;
-}
-
-.portfolio-5 {
-    grid-area: y;
-}
-
-.portfolio-6 {
-    grid-area: z;
-}
-
-.portfolio-item {
-    background-color: white;
-}
-
-.topcenter {
-    object-position: top center;
-}
-
-.topleft {
-    object-position: top left;
+    background: linear-gradient(#707070, #1A1A1A);
 }
 
 .section_heading {   
     grid-area: h;
     position: relative;
-    border-bottom: 200px solid transparent ;
+    border-bottom: 200px solid transparent;
     border-left: 50vw solid transparent;
     border-top: 10vh solid #707070; /* header height and color */
     border-right: 50vw solid transparent;
@@ -145,16 +56,34 @@ li {
     border: solid;
 }
 
+#grid-container-firstpage {
+    position: fixed;
+    z-index: -1;
+    background-image: url(Typical-orb-web-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 7vh 31.5vh 30vh 31.5vh;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        ". . . . . . . . . . . ."
+        ". . . c c c c c c . . ."
+        ". . . . . . . . . . . .";
+}
+
 #firstpage-content {
     background: rgba(255, 255, 255, 0.7);
 }
 
-footer {
-	display: flex;
-	align-items: center;
-	background-color: #707070;
-	color: white;
-	height: 5vh;
+#pusher {
+    height: 100vh;
+}
+
+#about {
+    background-color: white;
 }
 
 .picture {
@@ -165,22 +94,84 @@ footer {
     grid-area: a;
 }
 
+#grid-container-about {
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh 50vh 10vh 20vh 10vh;
+    grid-template-areas:
+        ". . . . . . . . . . . ."
+        ". p p p . c c c c c c ."
+        ". . . . . c c c c c c ."
+        ". a a a . c c c c c c ."
+        ". . . . . . . . . . . .";
+}
+
 #skills {
     background-color: white;
 }
 
-#firstpage {
-    position: fixed;
-    z-index: -1;
-    background: linear-gradient(#707070, #1A1A1A);
-}
-
-#about {
-    background-color: white;
+li {
+    display: inline;
 }
 
 #works {
     background-color: #eee;
+}
+
+.portfolio-1 {
+    grid-area: u;
+}
+
+.portfolio-2 {
+    grid-area: v;
+}
+
+.portfolio-3 {
+    grid-area: w;
+}
+
+.portfolio-4 {
+    grid-area: x;
+}
+
+.portfolio-5 {
+    grid-area: y;
+}
+
+.portfolio-6 {
+    grid-area: z;
+}
+
+#grid-container-works {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 20vh);
+    grid-row-gap: 5vh;
+    grid-column-gap: 5vw;
+    grid-template-areas:
+        ". u u u u u v v v v v ."
+        ". w w w w w x x x x x ."
+        ". y y y y y z z z z z .";
+}
+
+.portfolio-item {
+    background-color: white;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topcenter {
+    object-position: top center;
+}
+
+.topleft {
+    object-position: top left;
 }
 
 .fade2 {
@@ -192,6 +183,14 @@ footer {
 .fade2.visible { 
   opacity: 1;
   transform: translate(0, 0);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #707070;
+    color: white;
+    height: 15vh;
 }
 
 /*TODO
