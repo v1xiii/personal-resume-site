@@ -44,6 +44,7 @@ h1 {
     justify-self: center;
     text-align: center;
     color: white;
+    text-shadow: 0 1px black;
     font-size: 2em;
     border: solid white;
 }
@@ -162,6 +163,23 @@ footer {
     color: white;
     height: 15vh;
 }
+
+#pincers_background {
+    background-color: #CE1F26;
+    padding: 5vh 10vw 10vh 10vw;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    grid-auto-rows: 1fr; 
+    grid-row-gap: 2vh;
+    grid-column-gap: 2vw;  
+}
+
+.pincersize {
+    border: solid black;
+    max-width: 20vw;
+    max-height: 20vh;
+}    
 
 /*TODO
 -need boxes to expand and contract responsively
