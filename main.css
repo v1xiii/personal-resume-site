@@ -179,7 +179,20 @@ footer {
     border: solid black;
     max-width: 20vw;
     max-height: 20vh;
+}
+
+#pincerhead {
+    display: flex;
+    background-color: #CE1F26;
+    align-items: center;
+    justify-content: center;
 }    
+
+#pincerhead-text {
+    padding-top: 1vh;
+    max-height: 14vh;
+    width: 90vw;
+}
 
 /*TODO
 -need boxes to expand and contract responsively
