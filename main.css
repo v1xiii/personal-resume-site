@@ -194,6 +194,11 @@ footer {
     width: 90vw;
 }
 
+#fancybox-wrapper {
+    text-align: center;
+    padding: 5vh 0vh 5vh 0vh;
+}
+
 /*TODO
 -need boxes to expand and contract responsively
 -need page sections to do the same
