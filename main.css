@@ -44,7 +44,7 @@ h1 {
     justify-self: center;
     text-align: center;
     color: white;
-    text-shadow: 0 1px black;
+    text-shadow: 2px 2px 0px black;
     font-size: 2em;
     border: solid white;
 }
@@ -140,6 +140,10 @@ li {
 .portfolio-item {
     background-color: white;
     max-width: 550px;
+}
+
+.card-shadow {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cover {
