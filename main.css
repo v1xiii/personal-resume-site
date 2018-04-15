@@ -80,9 +80,12 @@ h1 {
 #grid-container-about {
     padding: 5vh 10vw 10vh 10vw;
     display: grid;    
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-row-gap: 2vh;
-    grid-column-gap: 2vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-row-gap: 10vh;
+    grid-column-gap: 10vw;
+    justify-items: center; 
+    align-items: center;    
 }
 
 .section_content {
@@ -96,17 +99,28 @@ h1 {
 
 #myself {
     vertical-align: bottom;
-    min-height: 50vh;
+    min-height: 250px;
+    max-width: 30vw;
+}
 
+#summary {
+    min-width: 300px;
 }
 
 #skills {
     background-color: white;
     border: solid black;
+    grid-column: 1 / -1;
+}
+
+ul {
+    text-align: center;
 }
 
 li {
-    display: inline;
+    display: inline-block;
+    min-width: 8vw;
+    padding: 10px;
 }
 
 #works {
@@ -118,12 +132,14 @@ li {
     display: grid;    
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-rows: 1fr;
-    grid-row-gap: 2vh;
-    grid-column-gap: 2vw;
+    grid-row-gap: 10vh;
+    grid-column-gap: 10vw;
+    justify-items: center; /*this is causing the portfolio items to be different sizes*/
 }
 
 .portfolio-item {
     background-color: white;
+    max-width: 550px;
 }
 
 .cover {
@@ -199,15 +215,8 @@ footer {
     padding: 5vh 0vh 5vh 0vh;
 }
 
-/*TODO
--need boxes to expand and contract responsively
--need page sections to do the same
--responsive font size?
--sort out the header
--make firstpage content box contents more responsive
 
-
-Triangle header stuff
+/*Triangle header stuff
 /*.section_heading {   
     grid-area: h;
     position: relative;
