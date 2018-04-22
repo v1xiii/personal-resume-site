@@ -4,17 +4,69 @@
 	<title>Pincers</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../main.css"></head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.0/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.0/jquery.fancybox.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+	       $("[data-fancybox]").fancybox({
+	         loop            : true,
+	         keyboard        : true,
+	         toolbar         : true,
+	         arrows          : true,
+	         protect         : true,
+	         clickContent    : false
+	        });
+	    });
+    </script>
+
+    <style>
+
+    	.fancybox-is-open .fancybox-bg {
+    		opacity: 1;
+    		background: #CE1F26;
+		}
+	</style>
+</head>
+
 <body>
+
 <div id="pincerhead">
 	<img src="pincers_text_wide.png" id="pincerhead-text">
 </div>
-<div id="pincers_background">
-	<img src="pincers_logo_lobs.png" class="pincersize">
-	<img src="pincers_logo_full.png" class="pincersize">
-	<img src="pincers_logo_slim.png" class="pincersize">
-	<img src="pincers_logo_star.png" class="pincersize">
-	<img src="pincers_package_template.png" class="pincersize">
+
+<div class="fancybox-wrapper" id="pincer-fancybox">
+
+<a href="pincers_logo_lobs.png" data-fancybox="gallery" data-caption="Caption #1">
+	<img src="pincers_logo_lobs_300px.png" alt="" / class="pincer-image">
+</a>
+
+<a href="pincers_logo_full.png" data-fancybox="gallery" data-caption="Caption #2">
+	<img src="pincers_logo_full_300px.png" alt="" / class="pincer-image">
+</a>
+
+<a href="pincers_logo_slim.png" data-fancybox="gallery" data-caption="Caption #1">
+	<img src="pincers_logo_slim_300px.png" alt="" / class="pincer-image">
+</a>
+
+<a href="pincers_logo_star.png" data-fancybox="gallery" data-caption="Caption #2">
+	<img src="pincers_logo_star_300px.png" alt="" / class="pincer-image">
+</a>
+
+<a href="pincers_package_template.png" data-fancybox="gallery" data-caption="Caption #1">
+	<img src="pincers_package_template_300px.png" alt="" / class="pincer-image">
+</a>
+
 </div>
+
+<footer>
+	<p>Copyright 2018 - Lee Scholl</p>
+	<a href="https://www.linkedin.com/in/lee-scholl-70a10736/">LinkedIn</a>
+	<a href="https://www.github.com/v1xiii">GitHub</a>
+</footer>
+
 </body>
 </html>
