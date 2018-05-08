@@ -215,8 +215,30 @@ footer {
     justify-content: space-around;
     font-size: 2vh;
     background-color: #707070;
-    color: white;
+    color: black;
     height: 15vh;
+    font-weight: bolder;
+}
+
+#footer-image {
+    max-height: 40px;
+}
+
+.fancy-image {
+    margin: 2vh 3vh 2vh 3vh;
+    max-height: 20vh;
+}
+
+#photo-head {
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+#gallery-container {
+    background-color: #eee;
 }
 
 #pincerhead {
@@ -226,6 +248,7 @@ footer {
     justify-content: center;
     height: 10vh;
     border-bottom: solid black;
+    margin-bottom: 5vh;
 }
 
 #pincerhead-text {
@@ -238,14 +261,9 @@ footer {
     min-height: 90vh;
 }
 
-.pincer-image {
-    margin: 2vh 3vh 2vh 3vh;
-    max-height: 20vh;
-}
-
 .fancybox-wrapper {
     text-align: center;
-    padding: 5vh 0 5vh 0;
+    padding: 0vh 0 5vh 0;
 }
 
 
