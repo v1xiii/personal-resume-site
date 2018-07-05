@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Lenovo/Documents/GitHub/corrupted-land"
+	],
+	"file_history":
+	[
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/jquery.js",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/pincers/pincers.html",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/photography/photography.html",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/main.css",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/index.html",
+		"/C/Users/Lenovo/Desktop/test.html",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/css/main.css",
+		"/C/Users/Lenovo/Documents/GitHub/portfolio-site/main.css",
+		"/C/Users/Lenovo/Documents/GitHub/portfolio-site/index.html",
+		"/C/Users/Lenovo/Documents/GitHub/corrupted-land/corrupted_land.css",
+		"/C/Users/Lenovo/Documents/GitHub/v1xiii.github.io/css/week6.css",
+		"/C/Users/Lenovo/Documents/GitHub/corrupted-land/corrupted_land.html",
+		"/C/Users/Lenovo/Documents/GitHub/portfolio-site/main.html",
+		"/C/Users/Lenovo/Documents/GitHub/corrupted-land/corrupted_land.js",
+		"/C/Users/Lenovo/Documents/GitHub/bootstrap/index.html",
+		"/C/Users/Lenovo/Documents/GitHub/bootstrap/custom.css",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/about.html",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/index.css",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/pages.css",
+		"/C/Users/Lenovo/Documents/GitHub/image-array/image-array.js",
+		"/C/Users/Lenovo/Documents/GitHub/colour_toggles/color_buttons.js",
+		"/C/Users/Lenovo/Documents/GitHub/colour_toggles/color_buttons.html",
+		"/C/Users/Lenovo/Documents/GitHub/lightbulb-toggle/lightbulb-toggle.js",
+		"/C/Users/Lenovo/Documents/GitHub/corrupted-land/corrupted_land.old",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/instock.html",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/donate.html",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/contact.html",
+		"/C/Users/Lenovo/Documents/GitHub/Business-Boutique-Site/index.html",
+		"/C/Users/Lenovo/Documents/GitHub/image-array/image-array.css",
+		"/C/Users/Lenovo/Documents/GitHub/image-array/image-array.html",
+		"/C/Users/Lenovo/Documents/GitHub/character-sheet/characterSheet.js",
+		"/C/Users/Lenovo/Documents/GitHub/lightbulb-toggle/lightbulb-toggle.html",
+		"/C/Users/Lenovo/Documents/GitHub/lightbulb-toggle/lightbulb-toggle.css",
+		"/C/Program Files/Sublime Text 3/lightbulb-toggle.html",
+		"/C/Users/Lenovo/Documents/GitHub/character-sheet/character-sheet.css",
+		"/C/Users/Lenovo/Documents/GitHub/character-sheet/character-sheet.html",
+		"/C/Users/Lenovo/Documents/GitHub/colour_toggles/color_buttons.css",
+		"/C/Users/Lenovo/Documents/GitHub/color-buttons/color_buttons.html",
+		"/C/Users/Lenovo/Documents/GitHub/pencil-program/Pencil Program 1.0.html",
+		"/C/Users/Lenovo/Documents/GitHub/color-buttons NOT GITTED/color_buttons.js",
+		"/C/Users/Lenovo/Documents/GitHub/color-buttons NOT GITTED/color_buttons.css",
+		"/C/Users/Lenovo/Documents/GitHub/color-buttons NOT GITTED/color_buttons.html",
+		"/C/Users/Lenovo/Documents/GitHub/character-sheet/character-sheet-grid.css",
+		"/C/Users/Lenovo/Documents/GitHub/responsive design NOT GITTED/responsive_design.html",
+		"/C/Users/Lenovo/Documents/GitHub/responsive design NOT GITTED/responsive_design.css",
+		"/C/Users/Lenovo/Documents/GitHub/character-sheet/character-sheet-flex.css",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/lists tables forms.html",
+		"/C/Users/Lenovo/Documents/GitHub/responsive design/responsive_design.css",
+		"/C/Users/Lenovo/Documents/GitHub/responsive design/responsive_design.html",
+		"/C/Users/Lenovo/Documents/GitHub/positioning.html",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/responsive_design.html",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/responsive_design.css",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/Website.html",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/Website.css",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/corrupted-land/corrupted_land.js",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/corrupted-land/corrupted_land.css",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Front End Programming/corrupted-land/corrupted_land.html",
+		"/C/Users/Lenovo/Desktop/HTML/Pencil Program 1.0.html",
+		"/C/Users/Lenovo/Desktop/HTML/Project/Resume/resume.css",
+		"/C/Users/Lenovo/Desktop/HTML/Project/Resume/resume.html",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 3/Packages/User/PackageResourceViewer.sublime-settings",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Lenovo/Desktop/HTML/Habitat/CCYP/syb/syb.css",
+		"/C/Users/Lenovo/Desktop/HTML/Habitat/CCYP/syb.html",
+		"/C/Users/Lenovo/OneDrive/COLLEGE/Programming/pencil pseudocode.txt",
+		"/C/Users/Lenovo/Desktop/HTML/wtf is the problem here.html",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"head",
+			"fancy-image",
+			"pincer-image",
+			"skills",
+			"height",
+			"font-weight",
+			"border",
+			"solid-white",
+			"solid black",
+			"border",
+			" class=\"anchorfix\"",
+			"anchor",
+			"padding",
+			"images",
+			"max",
+			"font-size",
+			"myself",
+			"picture",
+			"border",
+			"section_cont",
+			"firstpage",
+			"z-index",
+			"firstpage",
+			"about",
+			"index",
+			"section-content",
+			"color",
+			".",
+			"white",
+			" class=\"portfolio-item\"",
+			" class=\"fullpage\"",
+			"width",
+			"white",
+			"height",
+			"93",
+			".section_content",
+			"section1",
+			"turnCounter",
+			"shield",
+			"random",
+			"h1",
+			"#frontpage",
+			"dice",
+			"gametext",
+			"clicktest",
+			"id",
+			" class=\"flex1\"",
+			" class:\"flex1\"",
+			" class: vlex",
+			"2rem",
+			"button",
+			"float",
+			")",
+			"-color",
+			"'",
+			"background_",
+			"color_changer",
+			"darknesslevel",
+			"switch",
+			"onclick=\"color",
+			"h2",
+			"h3",
+			"<legend",
+			"</fieldset>",
+			"<fieldset",
+			"<div",
+			"</div>",
+			"<div>",
+			"justify",
+			"*/",
+			".grid",
+			".jpg\"",
+			"\"flex\"",
+			"white",
+			"height",
+			"head",
+			"center",
+			"section_content",
+			"goto",
+			"return",
+			"eraser",
+			"</td>",
+			"<td>",
+			"<li>",
+			"</li>",
+			"<li>",
+			"image",
+			"</h1>",
+			"<h1>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fancy-image card-shadow",
+			"fancy-image",
+			"",
+			"gallery",
+			"",
+			"h3",
+			"fight",
+			"",
+			"width_2rem",
+			")\"",
+			"Color",
+			"\"",
+			"background-",
+			"colorChanger",
+			"onclick=\"color_changer",
+			"h3",
+			"span",
+			"<div class=\"input_wrapper\"",
+			"",
+			"#grid",
+			".jpg\" alt=\"smily friend\"",
+			"\"flex_container\"",
+			"</li></td>",
+			"<td><li>",
+			"",
+			"</li></td>",
+			"<td><li>",
+			"</h2>",
+			"<h2>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
